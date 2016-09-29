@@ -1,0 +1,11 @@
+<h3>There are {{ botCount }} bots</h3>
+<table class="bots">
+<tr *ngFor="let bot of bots" (click)="gotoBot(bot)" [ngClass]="{ok: bot.status === 'ok',
+err: bot.status === 'err'}">
+<td >
+<span>{{bot.name}} </span>
+</td><td>
+<span>{{bot.ip}}:{{bot.port}}</span>
+</td>
+</tr>
+</table>

@@ -1,0 +1,40 @@
+.bots {
+  list-style-type: none;
+  padding: 0;
+  width: 24em;
+}
+.bots tr {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  border-radius: 4px;
+  padding: .5em;
+  
+}
+.bots tr:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0px 10px;
+}
+.bots td {
+  padding: 10px;
+}
+
+.status {
+  margin: 10px;
+}
+
+.ok {
+  outline: solid #0F0;
+}
+.err {
+  cursor: default;
+  outline: solid #F00;
+}
+
+

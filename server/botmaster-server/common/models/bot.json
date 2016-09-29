@@ -1,0 +1,31 @@
+{
+  "name": "Bot",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "status": {
+      "type": "string",
+      "default": "ok"
+    },
+    "ip": {
+      "type": "string",
+      "required": true
+    },
+    "port": {
+      "type": "number",
+      "default": 8888
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "a bot"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "BotsDB": {
+    "host": "0.0.0.0",
+    "port": 27017,
+    "url": "",
+    "database": "bots",
+    "password": "",
+    "name": "BotsDB",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
